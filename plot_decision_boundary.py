@@ -1,3 +1,4 @@
+   
     import numpy as np
     import matplotlib.pyplot as plt
 
@@ -33,4 +34,4 @@
      plt.contourf(xx, yy, y_pred, cmap = plt.cm.RdYlBu, alpha = 0.7)
      plt.scatter(X[:, 0], X[:,1], c= y, cmap = plt.cm.RdYlBu)
      plt.xlim(xx.min(), xx.max())
- plt.ylim(yy.min(), yy.max())
+     plt.ylim(yy.min(), yy.max())
